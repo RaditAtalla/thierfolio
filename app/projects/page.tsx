@@ -72,7 +72,7 @@ export default function Projects() {
         <h1 className="text-[24px] sm:text-[34px] md:text-[44px] lg:text-[54px] pt-[150px]">
           The Projects <span className="text-[#747474]">i had worked</span>
         </h1>
-        {/* <div className="flex items-center gap-[24px] mt-[20px]">
+        <div className="flex items-center gap-[24px] mt-[20px]">
           <DropdownMenu>
             <DropdownMenuTrigger>All company & projects</DropdownMenuTrigger>
             <DropdownMenuContent>
@@ -98,7 +98,7 @@ export default function Projects() {
               </ToggleGroupItem>
             ))}
           </ToggleGroup>
-        </div> */}
+        </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[24px] gap-y-[57px] mt-[36px] pb-[72px]">
           {PROJECTS.map((project, i) => (

@@ -3,11 +3,13 @@ import ServiceCard from "../service-card";
 
 const SERVICES = [
   {
+    img: "/services/product-uix.png",
     title: "Product & UI/UX Design",
     description:
       "We craft compelling online experiences that boost conversions and engagement. Our responsive, SEO-friendly websites are designed for success.",
   },
   {
+    img: "/services/no-code-dev.png",
     title: "Web Design & No Code Development",
     description:
       "Transform your digital landscape with stunning websites that convert visitors into customers and foster deep engagement.",
@@ -26,7 +28,7 @@ export default function ServiceSection() {
 
       <div className="flex flex-col items-center gap-[54px] sm:gap-[74px] px-[12px] lg:px-[70px] xl:px-[142px]">
         {SERVICES.map((service, i) => (
-          <ServiceCard title={service.title} description={service.description} key={i} isFlipped={i % 2 == 0 ? false : true} />
+          <ServiceCard src={service.img} title={service.title} description={service.description} key={i} isFlipped={i % 2 == 0 ? false : true} />
         ))}
       </div>
 

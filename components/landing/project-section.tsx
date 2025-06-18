@@ -14,6 +14,11 @@ const PROJECT = [
     href: "",
   },
   {
+    img: "/projects/clara-ai.png",
+    title: "CLARA.AI",
+    href: "",
+  },
+  {
     img: "/projects/vyrtual.png",
     title: "Vyrtual",
     href: "",

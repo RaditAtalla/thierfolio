@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "../button";
 import FloatingSkills from "../floating-skills";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -23,7 +24,7 @@ export default function HeroSection() {
         </div>
         <div className="flex flex-col sm:flex-row gap-[15px] sm:gap-[5px]">
           <Button>Hire me!</Button>
-          <Button variant={"ghost"}>Explore my projects</Button>
+          <Button variant={"ghost"}><Link href={"/projects"}>Explore My Projects</Link></Button>
         </div>
       </div>
 
