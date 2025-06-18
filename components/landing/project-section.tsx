@@ -4,22 +4,22 @@ import Button from "../button";
 
 const PROJECT = [
   {
-    img: "/projects/plek.png",
+    img: "/projects/plek.webp",
     title: "PLEK",
     href: "",
   },
   {
-    img: "/projects/lid.png",
+    img: "/projects/lid.webp",
     title: "Life Itinerary Design",
     href: "",
   },
   {
-    img: "/projects/clara-ai.png",
+    img: "/projects/clara-ai.webp",
     title: "CLARA.AI",
     href: "",
   },
   {
-    img: "/projects/vyrtual.png",
+    img: "/projects/vyrtual.webp",
     title: "Vyrtual",
     href: "",
   },

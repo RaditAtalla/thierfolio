@@ -30,25 +30,25 @@ const TOGGLE_MENU = [
 
 const PROJECTS = [
   {
-    img: "/projects/techstartup.png",
+    img: "/projects/techstartup.webp",
     title: "Techstartup University",
     tag: ["Mobile App", "Product", "Landing Page"],
     href: "",
   },
   {
-    img: "/projects/lid.png",
+    img: "/projects/lid.webp",
     title: "Life Itinerary Design",
     tag: ["Website", "Landing Page"],
     href: "",
   },
   {
-    img: "/projects/clar-ai.png",
+    img: "/projects/clar-ai.webp",
     title: "CLARA.AI",
     tag: ["Website", "Landing Page"],
     href: "",
   },
   {
-    img: "/projects/vyrtual.png",
+    img: "/projects/vyrtual.webp",
     title: "Vyrtual",
     tag: ["Product", "Landing Page"],
     href: "",

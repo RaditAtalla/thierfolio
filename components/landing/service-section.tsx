@@ -3,13 +3,13 @@ import ServiceCard from "../service-card";
 
 const SERVICES = [
   {
-    img: "/services/product-uix.png",
+    img: "/services/product-uix.webp",
     title: "Product & UI/UX Design",
     description:
       "We craft compelling online experiences that boost conversions and engagement. Our responsive, SEO-friendly websites are designed for success.",
   },
   {
-    img: "/services/no-code-dev.png",
+    img: "/services/no-code-dev.webp",
     title: "Web Design & No Code Development",
     description:
       "Transform your digital landscape with stunning websites that convert visitors into customers and foster deep engagement.",
