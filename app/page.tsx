@@ -20,7 +20,7 @@ export default function Home() {
           src={"/dotted-pattern.png"}
         />
       </div>
-      <Navbar className="fixed z-20 left-[28px] sm:left-1/2 sm:-translate-x-1/2 bottom-[10px] md:bottom-[44px] min-w-[316px] max-w-[352px]" />
+      <Navbar className="fixed z-20 left-[28px] sm:left-1/2 sm:-translate-x-1/2 bottom-[44px] min-w-[316px] max-w-[352px]" />
       <main className="relative px-[14px] lg:px-[64px] min-h-screen">
 
         <HeroSection />
