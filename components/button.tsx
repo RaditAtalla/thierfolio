@@ -13,13 +13,13 @@ const buttonVariants = cva(
       },
       size: {
         default: "px-[24px] py-[11px] text-[19px]",
-      }
+      },
     },
     defaultVariants: {
       variant: "default",
       size: "default",
     },
-  }
+  },
 );
 
 export default function Button({

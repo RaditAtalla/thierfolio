@@ -58,7 +58,7 @@ const PROJECTS = [
 export default function Projects() {
   return (
     <>
-      <div className="absolute px-[64px] -z-10 before:absolute before:inset-0 before:bg-linear-to-b before:from-white/28 before:via-white/100 before:to-white/100">
+      <div className="absolute -z-10 px-[64px] before:absolute before:inset-0 before:bg-linear-to-b before:from-white/28 before:via-white/100 before:to-white/100">
         <Image
           width={1313}
           height={380}
@@ -67,23 +67,28 @@ export default function Projects() {
         />
       </div>
 
-      <main className="relative px-[24px] sm:px-[100px] before:pointer-events-none before:absolute before:inset-0 before:border before:border-[#D9D9D9] before:border-b-0 before:mx-[12px] sm:before:mx-[64px]">
+      <main className="relative px-[31px] before:pointer-events-none before:absolute before:inset-0 before:mx-[14px] before:border before:border-b-0 before:border-[#D9D9D9] sm:px-[100px] sm:before:mx-[64px]">
         <NavButton className="fixed top-[52px] z-20" />
-        <h1 className="text-[24px] sm:text-[34px] md:text-[44px] lg:text-[54px] pt-[150px]">
+        <h1 className="pt-[150px] text-[32px] lg:text-[54px]">
           The Projects <span className="text-[#747474]">i had worked</span>
         </h1>
-        <div className="flex items-center gap-[24px] mt-[20px]">
+        <div className="mt-[20px] flex flex-wrap items-center gap-[24px]">
           <DropdownMenu>
-            <DropdownMenuTrigger className="leading-[110%] tracking-[-4%]">All company & projects</DropdownMenuTrigger>
+            <DropdownMenuTrigger className="leading-[110%] tracking-[-4%]">
+              All company & projects
+            </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>Company A</DropdownMenuItem>
               <DropdownMenuItem>Company B</DropdownMenuItem>
               <DropdownMenuItem>Company C</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <div className="h-[31px] w-[1px] bg-[#DBDBDB]" />
-          <ToggleGroup type="multiple" className="gap-[11px]">
-            <ToggleGroupItem value="my-featured-project" className="gap-[11px] leading-[110%] tracking-[-4%]">
+          <div className="hidden h-[31px] w-[1px] bg-[#DBDBDB] lg:block" />
+          <ToggleGroup type="multiple" className="flex flex-wrap gap-[11px]">
+            <ToggleGroupItem
+              value="my-featured-project"
+              className="gap-[11px] leading-[110%] tracking-[-4%]"
+            >
               My Featured Project{" "}
               <Image
                 width={19}
@@ -93,14 +98,19 @@ export default function Projects() {
               />
             </ToggleGroupItem>
             {TOGGLE_MENU.map((menu, i) => (
-              <ToggleGroupItem variant={"outline"} key={i} value={menu.value} className="leading-[110%] tracking-[-4%]">
+              <ToggleGroupItem
+                variant={"outline"}
+                key={i}
+                value={menu.value}
+                className="leading-[110%] tracking-[-4%]"
+              >
                 {menu.title}
               </ToggleGroupItem>
             ))}
           </ToggleGroup>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[24px] gap-y-[57px] mt-[36px] pb-[72px]">
+        <div className="mt-[36px] grid grid-cols-1 gap-x-[24px] gap-y-[24px] pb-[72px] sm:grid-cols-2 sm:gap-y-[57px]">
           {PROJECTS.map((project, i) => (
             <ProjectCard
               key={i}

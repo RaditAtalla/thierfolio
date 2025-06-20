@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="hidden md:inline-block absolute px-[66px] -z-10 before:absolute before:inset-0 before:bg-linear-to-b before:from-white/28 before:via-white/100 before:to-white/100">
+      <div className="absolute -z-10 hidden px-[66px] before:absolute before:inset-0 before:bg-linear-to-b before:from-white/28 before:via-white/100 before:to-white/100 md:inline-block">
         <Image
           width={1313}
           height={380}
@@ -20,9 +20,8 @@ export default function Home() {
           src={"/dotted-pattern.png"}
         />
       </div>
-      <Navbar className="fixed z-20 left-[28px] sm:left-1/2 sm:-translate-x-1/2 bottom-[44px] min-w-[316px] max-w-[352px]" />
-      <main className="relative px-[14px] lg:px-[64px] min-h-screen">
-
+      <Navbar className="fixed bottom-[44px] left-1/2 z-20 w-full max-w-[352px] -translate-x-1/2" />
+      <main className="relative min-h-screen px-[14px] lg:px-[64px]">
         <HeroSection />
         <StatSection />
         <PartnerSection />

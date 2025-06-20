@@ -16,11 +16,14 @@ export default function ProjectCard({
   tag,
 }: ProjectCardType) {
   return (
-    <div className="relative flex flex-col gap-[9px] max-w-[607px]">
+    <div className="relative flex max-w-[607px] flex-col gap-[9px]">
       {tag && (
-        <div className="absolute top-[20px] left-[20px] flex gap-[12px] flex-wrap">
+        <div className="absolute top-[20px] left-[20px] flex flex-wrap gap-[12px]">
           {tag.map((tag, i) => (
-            <p key={i} className="rounded-[100px] border border-[#E8E8E8] py-[12px] px-[16px] font-medium text-[12px] sm:text-[20px] text-white leading-none">
+            <p
+              key={i}
+              className="rounded-[100px] border border-[#E8E8E8] px-[16px] py-[12px] text-[12px] leading-none font-medium text-white sm:text-[20px]"
+            >
               {tag}
             </p>
           ))}
@@ -31,11 +34,11 @@ export default function ProjectCard({
         height={336}
         alt="project"
         src={src}
-        className="rounded-[16px] w-full object-center object-cover"
+        className="w-full rounded-[16px] object-cover object-center"
       />
       <Link
         href={href}
-        className="transition-all flex items-center justify-between rounded-[8px] py-[10px] px-[24px] border border-[#DCDCDC] hover:bg-[#1D61FF] hover:text-white font-medium text-[19px]"
+        className="flex items-center justify-between rounded-[8px] border border-[#DCDCDC] px-[24px] py-[10px] text-[19px] font-medium transition-all hover:bg-[#1D61FF] hover:text-white"
       >
         {title}
         <ArrowRight />

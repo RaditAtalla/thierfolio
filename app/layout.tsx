@@ -10,10 +10,10 @@ const neueMontreal = localFont({
     },
     {
       path: "../public/fonts/PPNeueMontreal-Medium.otf",
-      weight: "500"
+      weight: "500",
     },
-  ]
-})
+  ],
+});
 
 export const metadata: Metadata = {
   title: "Fathir | UI/UX Designer",
@@ -27,9 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${neueMontreal.className} antialiased`}
-      >
+      <body className={`${neueMontreal.className} antialiased`}>
         {children}
       </body>
     </html>
