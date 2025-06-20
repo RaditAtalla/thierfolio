@@ -31,7 +31,7 @@ export default function ProjectCard({
         height={336}
         alt="project"
         src={src}
-        className="rounded-[16px]"
+        className="rounded-[16px] w-full object-center object-cover"
       />
       <Link
         href={href}
