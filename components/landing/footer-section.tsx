@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function FooterSection() {
   return (
-    <footer className="relative w-screen flex justify-between">
+    <footer className="relative w-screen md:flex justify-between hidden">
       <div className="pl-[149px] mt-[101px]">
         <p className="text-[54px] mb-[38px] leading-[110%]">
           Do you want have some

@@ -49,14 +49,19 @@ const EXPERIENCES = [
 export default function ExperienceSection() {
   return (
     <section className="relative py-[103px] before:pointer-events-none before:absolute before:inset-0 before:border before:border-[#EBE5E5] before:border-t-0 before:border-b-0 before:z-10">
-      <h2 className="text-[40px] sm:text-[49px] text-center relative mb-[59px]">
-        Work <span className="text-[#1D61FF]">Experience</span>
+      <h2 className="text-[31px] md:text-[49px] text-center relative mb-[59px]">
+        <span className="hidden md:block">
+          Work <span className="text-[#1D61FF]">Experience</span>
+        </span>
+        <span className="md:hidden">
+          My <span className="text-[#1D61FF]">Journey</span>
+        </span>
         <span className="absolute -bottom-[30px] left-1/2 -translate-x-1/2">
           <Image width={290} height={41} alt="scribble" src={"/scribble.png"} />
         </span>
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[21px] gap-y-[36px] px-[24px] md:-[32px] lg:px-[56px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[21px] gap-[12px] md:gap-y-[36px] px-[14px] md:px-[32px] lg:px-[56px]">
         {EXPERIENCES.map((exp, i) => (
           <ExperienceCard
             key={i}
