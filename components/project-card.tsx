@@ -16,7 +16,7 @@ export default function ProjectCard({
   tag,
 }: ProjectCardType) {
   return (
-    <div className="relative flex flex-col gap-[9px]">
+    <div className="relative flex flex-col gap-[9px] max-w-[607px]">
       {tag && (
         <div className="absolute top-[20px] left-[20px] flex gap-[12px] flex-wrap">
           {tag.map((tag, i) => (
