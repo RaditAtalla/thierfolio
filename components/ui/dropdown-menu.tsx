@@ -28,11 +28,11 @@ function DropdownMenuTrigger({
   return (
     <DropdownMenuPrimitive.Trigger
       data-slot="dropdown-menu-trigger"
-      className={cn("font-medium text-[19px] 2xl:text-[20px] text-[#545454] rounded-[100px] border border-[#E8E8E8] py-[12px] px-[16px] flex gap-[10px] items-center", className)}
+      className={cn("font-medium text-[18px] 2xl:text-[20px] text-[#545454] rounded-[100px] border border-[#E8E8E8] py-[12px] px-[16px] flex gap-[10px] items-center", className)}
       {...props}
     >
       {children}
-      <ChevronDown />
+      <ChevronDown size={19} />
     </DropdownMenuPrimitive.Trigger>
   )
 }
