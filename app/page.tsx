@@ -21,7 +21,7 @@ export default function Home() {
         />
       </div>
       <main className="relative px-[12px] sm:px-[24px] md:px-[32px] lg:px-[66px] min-h-screen">
-        {/* <Navbar className="fixed z-20 left-[28px] sm:left-1/2 sm:-translate-x-1/2 bottom-[44px]" /> */}
+        <Navbar className="fixed z-20 left-[28px] sm:left-1/2 sm:-translate-x-1/2 bottom-[44px]" />
 
         <HeroSection />
         <StatSection />

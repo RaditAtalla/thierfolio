@@ -74,7 +74,7 @@ export default function Projects() {
         </h1>
         <div className="flex items-center gap-[24px] mt-[20px]">
           <DropdownMenu>
-            <DropdownMenuTrigger>All company & projects</DropdownMenuTrigger>
+            <DropdownMenuTrigger className="leading-[110%] tracking-[-4%]">All company & projects</DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>Company A</DropdownMenuItem>
               <DropdownMenuItem>Company B</DropdownMenuItem>
@@ -83,7 +83,7 @@ export default function Projects() {
           </DropdownMenu>
           <div className="h-[31px] w-[1px] bg-[#DBDBDB]" />
           <ToggleGroup type="multiple" className="gap-[11px]">
-            <ToggleGroupItem value="my-featured-project" className="gap-[11px]">
+            <ToggleGroupItem value="my-featured-project" className="gap-[11px] leading-[110%] tracking-[-4%]">
               My Featured Project{" "}
               <Image
                 width={24}
@@ -93,7 +93,7 @@ export default function Projects() {
               />
             </ToggleGroupItem>
             {TOGGLE_MENU.map((menu, i) => (
-              <ToggleGroupItem variant={"outline"} key={i} value={menu.value}>
+              <ToggleGroupItem variant={"outline"} key={i} value={menu.value} className="leading-[110%] tracking-[-4%]">
                 {menu.title}
               </ToggleGroupItem>
             ))}

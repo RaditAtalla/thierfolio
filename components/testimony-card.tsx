@@ -14,7 +14,7 @@ export default function TestimonyCard() {
         <p className="text-[24px] text-[#030303]">Jonathan Reeves</p>
         <p className="font-medium text-[20px] text-[#898484]">CEO of Nexa AI</p>
       </div>
-      <p className="text-[20px] text-[#8D8C8C]">
+      <p className="text-[20px] text-[#8D8C8C] leading-[150%]">
         Illuminance DAO helped us scale our AI-powered blockchain from an idea
         to a globally recognized protocol.
       </p>

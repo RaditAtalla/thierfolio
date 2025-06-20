@@ -6,7 +6,7 @@ export default function FooterSection() {
   return (
     <footer className="relative w-screen flex justify-between">
       <div className="pl-[149px] mt-[101px]">
-        <p className="text-[54px] leading-14 mb-[38px]">
+        <p className="text-[54px] mb-[38px] leading-[110%]">
           Do you want have some
           <br />
           <span className="text-[#1D61FF]">discussion with me</span>

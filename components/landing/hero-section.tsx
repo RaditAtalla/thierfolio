@@ -8,13 +8,13 @@ export default function HeroSection() {
     <section className="relative flex justify-center items-center min-h-screen before:pointer-events-none before:absolute before:inset-0 before:border before:border-[#EBE5E5] before:border-t-0 before:border-b-0 before:z-10">
       <div className="flex flex-col items-center gap-[102px] sm:gap-[60px] md:gap-[32px]">
         <div className="flex flex-col gap-[10px] sm:gap-[20px] md:gap-[31px] max-w-[800px] px-[12px] lg:px-0">
-          <h1 className="text-[24px] sm:text-[34px] md:text-[44px] lg:text-[54px] text-center leading-tight">
+          <h1 className="text-[24px] sm:text-[34px] md:text-[44px] lg:text-[54px] text-center leading-[110%] tracking-[-4%]">
             Designing Interfaces That Are{" "}
             <span className="text-[#1D61FF]">
               Fast, High-Quality, and Goal-Driven
             </span>
           </h1>
-          <p className="text-[16px] md:text-[18px] text-[#7E7E7E] text-center">
+          <p className="text-[16px] md:text-[18px] text-[#7E7E7E] text-center leading-[150%] tracking-[-2%]">
             . I read, I solve, and I design with purpose,focusing on clean
             visuals,
             <br className="hidden sm:block" />

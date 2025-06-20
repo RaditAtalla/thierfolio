@@ -27,8 +27,8 @@ export default function ServiceCard({
           isFlipped ? "self-start" : "self-end"
         } sm:w-[278px] md:w-[378px] xl:w-[478px]`}
       >
-        <h3 className="text-[22px] lg:text-[37px] mb-[27px]">{title}</h3>
-        <p className="text-[16px] lg:text-[22px] text-[#838383]">
+        <h3 className="text-[22px] lg:text-[37px] mb-[27px] leading-[110%]">{title}</h3>
+        <p className="text-[16px] lg:text-[22px] text-[#838383] leading-[150%]">
           {description}
         </p>
       </div>
