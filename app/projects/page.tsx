@@ -86,8 +86,8 @@ export default function Projects() {
             <ToggleGroupItem value="my-featured-project" className="gap-[11px] leading-[110%] tracking-[-4%]">
               My Featured Project{" "}
               <Image
-                width={24}
-                height={24}
+                width={19}
+                height={19}
                 alt="fire"
                 src={"/icons/fire-fill.png"}
               />
