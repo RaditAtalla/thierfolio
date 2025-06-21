@@ -24,7 +24,7 @@ export default function HeroSection() {
         </div>
         <div className="flex w-full flex-col justify-center gap-[5px] sm:flex-row">
           <Button>Hire me!</Button>
-          <Link href={"/projects"}>
+          <Link href={"/projects"} className="w-full">
             <Button variant={"ghost"}>Explore My Projects</Button>
           </Link>
         </div>
